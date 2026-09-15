@@ -15,8 +15,14 @@ export function baseOptions(): BaseLayoutProps {
         </span>
       ),
     },
-    // Social links centered in navbar (not secondary)
+    // MCP link in main navbar
     links: [
+      {
+        type: "text",
+        text: "MCP Setup",
+        url: "/docs/welcome#connect-via-mcp-for-ai-agents",
+      },
+      // Social links moved to secondary (right side) for better spacing
       {
         type: "icon",
         icon: (
@@ -29,6 +35,7 @@ export function baseOptions(): BaseLayoutProps {
         url: "https://aliaskari.xyz/",
         text: "Portfolio",
         external: true,
+        secondary: true,
       },
       {
         type: "icon",
@@ -42,6 +49,7 @@ export function baseOptions(): BaseLayoutProps {
         url: "https://www.linkedin.com/in/ali-askari-dev",
         text: "LinkedIn",
         external: true,
+        secondary: true,
       },
       {
         type: "icon",
@@ -54,6 +62,7 @@ export function baseOptions(): BaseLayoutProps {
         url: "https://github.com/AliAskariGithub",
         text: "GitHub",
         external: true,
+        secondary: true,
       },
     ],
   };
