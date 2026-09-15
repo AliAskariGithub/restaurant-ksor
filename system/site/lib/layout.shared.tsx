@@ -18,7 +18,7 @@ export function baseOptions(): BaseLayoutProps {
     // MCP link in main navbar
     links: [
       {
-        type: "text",
+        type: "button",
         text: "MCP Setup",
         url: "/docs/welcome#connect-via-mcp-for-ai-agents",
       },
