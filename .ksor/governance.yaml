@@ -1,0 +1,13 @@
+version: "0.1"
+
+# Approval authorities: actors who may approve a document for `status: stable`.
+# Each must appear here for their approval to be accepted. The starter producer
+# stays until the last sample document is replaced.
+approval_authorities:
+  - actors: [ksor-starter/0.0.60, human:aliaskari]
+
+# Takedown authorities: actors who may withdraw a document from all surfaces.
+# A takedown is recorded in `.ksor/takedowns.yaml` and enforced by the site
+# and the MCP door alike.
+takedown_authorities:
+  actors: [human:aliaskari]

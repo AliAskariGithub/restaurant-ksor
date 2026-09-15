@@ -1,0 +1,30 @@
+{
+  "name": "ksor-restaurants",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix system/site run dev",
+    "build": "ksor build && npm --prefix system/site run build",
+    "preview": "node system/site/preview.mjs",
+    "check": "node .agents/skills/format-checker/check.mjs",
+    "provision": "npm run schema && npm run grant",
+    "serve": "ksor serve",
+    "refresh": "ksor build && npm run ingest && npm run gc",
+    "schema": "ksor schema --instance instance.md --apply",
+    "grant": "ksor grant --instance instance.md",
+    "ingest": "ksor ingest --instance instance.md --flip",
+    "gc": "ksor gc --instance instance.md"
+  },
+  "dependencies": {
+    "@panaversity/ksor": "0.0.60"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "system/site",
+    "system/gateways/*",
+    "system/packages/*"
+  ]
+}
