@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "Neon": {
+    "neon": {
       "type": "http",
       "url": "https://mcp.neon.tech/mcp"
     },
@@ -8,6 +8,10 @@
       "type": "http",
       "url": "https://sor.panaversity.org/mcp",
       "oauth": { "clientId": "zia-tutor-ai", "callbackPort": 3118 }
+    },
+    "restaurant": {
+      "type": "http",
+      "url": "http://127.0.0.1:8080/mcp"
     }
   }
 }

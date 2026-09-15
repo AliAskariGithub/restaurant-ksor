@@ -15,17 +15,15 @@ export function baseOptions(): BaseLayoutProps {
         </span>
       ),
     },
-    // `secondary` puts it at the navbar's trailing edge, beside the theme
-    // toggle. SignIn renders null when no issuer is configured, so a record
-    // that does not offer sign-in shows nothing rather than an empty slot.
+    // Social links centered in navbar (not secondary)
     links: [
       {
         type: "icon",
         icon: (
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-            <path d="M2 17l10 5 10-5"/>
-            <path d="M2 12l10 5 10-5"/>
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+            <path d="M2 12h20"/>
           </svg>
         ),
         url: "https://aliaskari.xyz/",
@@ -57,7 +55,6 @@ export function baseOptions(): BaseLayoutProps {
         text: "GitHub",
         external: true,
       },
-      { type: "custom", secondary: true, children: <SignIn /> }
     ],
   };
 }
