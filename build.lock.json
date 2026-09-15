@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "build_id": "sha256:bc16ee79e1110a55ee2e6e496247066cf627b69a11522f890879e6afead0b47a",
+  "ksor_version": "0.0.60",
+  "okf": {
+    "version": "0.2",
+    "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
+    "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
+  },
+  "source_commit": "40547103ccd5f54b6e4f8f69efe44ae92e98650c",
+  "dirty": true,
+  "as_of": "2026-09-15T08:21:19.118Z",
+  "drafts": "hidden",
+  "instance_sha256": "7f00c982bcf6a5e0cbb57a6f2ae984a20bcbf9cf90e8c75f8334b8b2e3a94af9",
+  "policy_sha256": "9483a762bdce0448811be634cf2357de6ca62170741647438e66fd3659012382",
+  "people_sha256": "fa595071fa3ec40c2aade8effff2f753824c0bee2e7031aec8c1c8c92a0575eb",
+  "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ledger_entries": [],
+  "audiences": {
+    "registry": [],
+    "viewers": {
+      "public": [
+        "public"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "path": "allergens-and-dietary.md",
+      "sha256": "2dd86e2569c6c42f1d5824bc29195356be7f92ba04c142515e7b987782e5eeff",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "faq.md",
+      "sha256": "a2e194196d5c3bc526d1da9884a6b014892ca3fa1a90161846a868c4a61cd8c7",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "hours-and-location.md",
+      "sha256": "ff5c270be0fd43cba153aeec8f89d4a3ea02cf2e8bb45f24a47e9a613b105430",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "menu.md",
+      "sha256": "0a43aef77a333feb90b99e9a8d967b076e84f58b1c9a04ba337f655590b96d7a",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "policies/refunds-and-cancellations.md",
+      "sha256": "4cb6e7b30edab3567fe35e2032a14d965b4f54acc441e236e91f3c9c9eee89c6",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "policies/reservations.md",
+      "sha256": "adb5bda2c2d338457be5ee65aa64780f759e18b8b9ee375dd157994ac661f53a",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "welcome.md",
+      "sha256": "2d8275b1ce409fc093cfd057ebbed7a7ddaa223e155de1e6263a6d10b9f007e8",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    }
+  ],
+  "companions": [],
+  "assets": [],
+  "indexes": [
+    {
+      "path": "index.md",
+      "sha256": "e853a1cd1edc8d51598f245065d40786e7f13318c2bcc26a58c37d3918db53d4"
+    },
+    {
+      "path": "policies/index.md",
+      "sha256": "45a1ff834095e368e18da153672710c3163472f77e40e6fcda6f5bb398b98013"
+    }
+  ],
+  "bundles": [
+    {
+      "viewer": "public",
+      "sha256": "a7edd9b6e9b8dd88cc5fc74a9379c68fb24c4f2e12e8a73f91e5184d673765be",
+      "files": 9
+    }
+  ]
+}
