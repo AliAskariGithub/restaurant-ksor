@@ -6,13 +6,13 @@ status: stable
 order: 1
 generated:
   by: human:aliaskari
-  at: 2026-09-15T08:04:00Z
+  at: 2026-09-15T10:16:00Z
 ksor:
   owner: human:aliaskari
   audience: [public]
   approval:
     by: human:aliaskari
-    at: 2026-09-15T08:04:00Z
+    at: 2026-09-15T10:16:00Z
 ---
 
 Welcome to Askari's Restaurant knowledge base. This resource contains information about our menu, policies, and operating procedures.
@@ -31,3 +31,25 @@ This knowledge base will include:
 ## Getting Started
 
 Browse the documents in the sidebar to find the information you need. If you have questions not covered here, please contact us directly.
+
+## Connect via MCP (For AI Agents)
+
+This knowledge base is available as an MCP (Model Context Protocol) server for AI agents. Add this to your `.mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "askari-restaurant": {
+      "type": "http",
+      "url": "https://restaurant-ksor.vercel.app/mcp"
+    }
+  }
+}
+```
+
+**Available tools:**
+- `search` — Search the restaurant knowledge base
+- `read` — Read a specific document by ID
+- `outline` — Get the document structure
+
+Once connected, AI agents can query our menu, allergens, policies, and hours with cited answers from our governed knowledge base.
